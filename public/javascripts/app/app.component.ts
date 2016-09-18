@@ -7,7 +7,7 @@ import { TitleService } from './title.service';
   providers: [TitleService]
 })
 
-export class AppComponent implements OnInit{ 
+export class AppComponent implements OnInit{
   private title: string;
 
   constructor (private titleService: TitleService) {}
